@@ -30,6 +30,6 @@ app.get("/tasks/:id", (req, res) => {
   res.json(task);
 });
 
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
 });

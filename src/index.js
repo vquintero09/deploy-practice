@@ -10,7 +10,7 @@ const tasks = [
 
 // GET / -> mensaje
 app.get("/", (req, res) => {
-  res.json({ message: "Bienvenido a la API de tareas" });
+  res.json({ message: "Bienvenido a la API de tareas desplegadas" });
 });
 
 // GET /tasks -> lista de tareas
